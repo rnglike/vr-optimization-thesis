@@ -6,13 +6,15 @@ using UnityEngine.EventSystems;
 public class HandTrackingUI : MonoBehaviour
 {
 
-public OVRHand hand;
-public OVRInputModule inputModule;
+    // DEPRECATED: OVRHand and OVRInputModule are no longer used. New input system can be found in 
+
+    // public OVRHand hand;
+    // public OVRInputModule inputModule;
 
 
-    private void Start()
-    {
-        inputModule.rayTransform = hand.PointerPose;
-    }
+    //     private void Start()
+    //     {
+    //         inputModule.rayTransform = hand.PointerPose;
+    //     }
 
 }
